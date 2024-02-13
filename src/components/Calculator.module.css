@@ -1,0 +1,81 @@
+.Container{
+    background-color: var(--white);
+    width: 420px;
+    max-width: 80%;
+    padding: 30px;
+    position: relative;
+    border-bottom-right-radius: 150px;
+}
+
+.Input{
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--off-white);
+    outline: none;
+
+    color: var(--OffBlack);
+    font-size: 0.938rem;
+    font-weight: bold;
+}
+
+.inputContainer span{
+    font-size: 1.20rem;
+    color: var(--Smokey-grey);
+}
+
+input:focus{
+    border: 2px solid var(--Purple);
+}
+
+.inputContainer small{
+    color: red;
+    font-size: 0.6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.SubmitBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    background-color: var(--Purple);
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 90px;
+    cursor: pointer;
+}
+
+.SubmitBtn:hover{
+    background-color: black;
+}
+
+.Results span{
+    font-size: 2.75rem;
+    color: var(--Purple);
+    font-style: italic;
+
+}
+
+.Results h1{
+    font-size: 3.125rem;
+    font-weight: italic;
+}
+
+.inputContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.inputFlex{
+    display: flex;
+    border-bottom: 2px solid var(--off-white);
+    margin-bottom: 20px;
+}
